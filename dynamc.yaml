@@ -1,0 +1,13 @@
+plugin: aws_ec2
+regions:
+  - us-east-1
+  - us-west-1
+# Add any other regions you want to include
+filters:
+  instance-state-name: running
+# Add any other filters you want to apply
+keyed_groups:
+  - key: tags.Environment
+    prefix: env
+  - key: tags.Role
+    prefix: role
