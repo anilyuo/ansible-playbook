@@ -26,3 +26,8 @@ ansible_ssh_private_key_file=/home/ubuntu/.ssh/ansible-key.pem
 3. Connectivity Testing with Ansible Ping
   ansible servers -m ping -k
 4. Develop palybook 
+
+![dd](https://github.com/anilyuo/ansible-playbook/assets/168365194/3dff943a-3cfc-416c-8147-19185eee975b)
+
+
+
