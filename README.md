@@ -2,6 +2,12 @@
 
 ![dd](https://github.com/anilyuo/ansible-playbook/assets/168365194/3dff943a-3cfc-416c-8147-19185eee975b)
 
+# Choosing Tools to Deploy and Maintain Applications and Infrastructure
+
+A quick reference before choosing our approach to understand mutable and immutable architecture 
+
+https://blogs.cisco.com/developer/choosingtools01
+
 # Basic Setup - Ansible
 
 1. On the instance where Ansible is installed, create a new directory for your Ansible project. For example, `mkdir myproject`
